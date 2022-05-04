@@ -7,6 +7,8 @@ fun main(){
     var s=SavingsAccount("102349859","Sean",2000.2,1)
     s.deposit(2000.5)
     s.withdraw(404.5)
+    s.withdraw(200.0)
+    s.withdraw(300.0)
     println(s.withdrawal)
     s.details()
 
